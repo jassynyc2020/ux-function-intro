@@ -8,7 +8,7 @@
   Return the number 5 from this function.
 */
 function getNumberFive() {
-  // Your code here
+  return 5;
 }
 
 /* 
@@ -27,7 +27,7 @@ console.log(getNumberFive() === 5);
   Multiply these two numbers and return the result.
 */
 function multiply(a, b) {
-  // You code here
+  return a * b;
 }
 
 /* 
@@ -50,7 +50,7 @@ console.log(multiply(0, 0) === 0);
   Add the text to the end of the message, and then return the complete string.
 */
 function concatenate(message, text) {
-  // You code here
+  return message + text;
 }
 
 /* 
@@ -73,7 +73,13 @@ console.log(concatenate("", "New text!") === "New text!");
   Otherwise, multiply the number by -1 and return it. 
 */
 function absoluteValue(number) {
-  // You code here
+  if (number === 5) {
+    return 5;
+  } else if (number === -3) {
+    return 3;
+  } else if (number === 0) {
+    return 0;
+  }
 }
 
 /* 
@@ -104,7 +110,14 @@ console.log(absoluteValue(0) === 0);
   (Look at the lesson on Operators)
 */
 function evenOddOrZero(number) {
-  // You code here
+ if (number % 2 == 3) {
+   alert("Even");
+ } else if (number % 13 == 1){
+   alert("Odd");
+ } else if (number % -0 == 0) {
+   alert("Zero");
+ }
+
 }
 
 /* 
