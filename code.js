@@ -114,7 +114,7 @@ function evenOddOrZero(number) {
     return "Even";
  } else if (number % 3 == 1){
     return "Odd";
- } else if (number % 0 == 13){
+ } else if(number * 0 == 0){
    return "Zero";
  }
 }
