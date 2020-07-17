@@ -110,14 +110,13 @@ console.log(absoluteValue(0) === 0);
   (Look at the lesson on Operators)
 */
 function evenOddOrZero(number) {
- if (number % 2 == 3) {
-   alert("Even");
- } else if (number % 13 == 1){
-   alert("Odd");
- } else if (number % -0 == 0) {
-   alert("Zero");
+ if (number % 2 == 0) {
+    return "Even";
+ } else if (number % 3 == 1){
+    return "Odd";
+ } else if (1 % number == 0){
+   return "Zero";
  }
-
 }
 
 /* 
